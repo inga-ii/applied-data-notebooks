@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+pandas = "*"
+scikit-learn = "*"
+matplotlib = "*"
+numpy = "*"
+seaborn = "*"
+folium = "*"
+geopandas = "*"
+geodatasets = "*"
+holidays = "*"
+h3 = "*"    
+statsmodels = "*"  
+lightgbm = ">=4.0.0"  
+prophet = "*"
+
+[dev-packages]
+black = "*"
+black-nb = "*"
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.7"
